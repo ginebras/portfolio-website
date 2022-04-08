@@ -1,0 +1,80 @@
+.contact-container{
+	display: flex;
+}
+
+.contact-options{
+	flex: 1;
+	display: grid;
+	grid-template-columns: 1 ;
+	gap: 0.8rem;
+	justify-items: center;
+}
+
+.contact-options article{
+	background: var(--color-bg-variant);
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	gap: 0.8rem;
+	width: 80%;
+	transition: var(--transition);
+}
+
+.contact-options article *{
+	font-size: 15px;
+}
+
+.contact-options .contact-icon{
+	font-size: 20px;
+}
+
+.contact-options article div{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.color-light{
+	color: var(--color-light);
+}
+
+.contact-options a{
+	font-size: 13px;
+}
+
+.contact-options article:hover{
+	background: transparent;
+	border: 1px solid var(--color-primary);
+}
+
+.form-contact{
+	flex: 2;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	gap: 2rem;
+	width: 25%;
+}
+
+.form-input{
+	width:75% ;
+	padding: 20px;
+	color: var(--color-light);
+	border-radius: 10px;
+	border: 1.5px solid var(--color-primary-variant);
+	background: transparent;
+}
+
+.form-contact div{
+	width: 75%;
+	display: flex;
+	align-items: flex-start;
+}
+
+.form-contact textarea{
+	height:150px;
+}

@@ -1,0 +1,60 @@
+#experience{
+	height: fit-content;
+}
+
+.my-experience{
+	display: flex;
+	flex-wrap:wrap;
+	gap: 2rem;
+}
+
+.field-experience{
+	flex: 1;
+	width: 100%;
+	text-align: center;
+	background: var(--color-bg-variant);
+	border-radius: 20px;
+	transition: var(--transition);
+}
+
+.field-experience h3{
+	color: var(--color-primary);
+}
+
+.field-experience:hover{
+	background: transparent;
+	border: 1px solid var(--color-primary);
+}
+
+.content-wrapper{
+	padding: 30px;
+}
+
+.experience-content{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 2rem;
+	grid-column-gap: 2rem;
+	padding: 30px;
+}
+
+.experience-details{
+	display: flex;
+	gap: 2rem;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.experience-details div{
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	padding-left: 25px;
+}
+
+.check-icon{
+	position: absolute;
+	color: var(--color-primary);
+	top: 5px;
+	left: 0;
+}
