@@ -13,11 +13,7 @@ export default function Footer(){
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
-
-			<div className="footer-socials">
-				<a href="https://www.instagram.com/alejo.francop/" target="_blank"><BsInstagram  className="footer-icon"/></a>
-			</div>
-
+			
 			<div className="footer-copyright">
 				<small>&copy;ALEJO FRANCO </small>
 			</div>

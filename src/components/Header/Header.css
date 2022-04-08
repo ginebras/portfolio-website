@@ -32,13 +32,6 @@ header{
 	bottom: 3rem;
 }
 
-.socials-header::after{
-	content: "";
-	width: 1px;
-	height: 2rem;
-	background: var(--color-primary);
-}
-
 /*<----- ME ----->*/
 
 .me{
@@ -71,9 +64,9 @@ header{
 }
 
 /*<------- MEDIA QUERIES (SMALL DEVICES)  ------->*/
-@media screen and(max-width: 600px){
+@media screen and (max-width: 600px){
 	header{
-		height: 100vh;
+		height: 80vh;
 	}
 
 	.scroll-down{

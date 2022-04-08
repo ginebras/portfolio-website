@@ -78,3 +78,19 @@
 .form-contact textarea{
 	height:150px;
 }
+
+@media screen and (max-width: 600px){
+	.contact-container{
+		flex-direction: column;
+		gap: 2rem;
+		align-items: center;
+	}
+
+	.contact-options{
+		width: 80%;
+	}
+
+	.form-contact{
+		width: 80%;
+	}
+}
